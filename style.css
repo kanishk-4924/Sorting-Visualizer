@@ -1,0 +1,107 @@
+:root {
+  --width:40px;
+   color:yellow;
+}
+/* background-color: #212529; */
+body {
+  background-color: #161717;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  zoom: 75%;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 1% 2% 0 2%;
+  text-align: left;
+}
+
+.appName {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navItemsList {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.newArray {
+  margin-right: 1rem;
+}
+
+.navDropdown {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Bars */
+.barsCon {
+  margin-top: 5%;
+  height: 70vh;
+}
+.bar {
+  width: var(--width);
+  background-color: yellow;
+  margin-right: 2px;
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 3px 5px #888888;
+  transition: ease-out 0.3s;
+}
+
+/* Sort Btn */
+.btn-lg {
+  font-size: 1.75rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px yellow;
+  font-weight: bold;
+  width: 225px;
+
+}
+.btn-lg:hover{
+  background-color: yellow;
+  font-weight: 1000;
+  font-weight: bolder;
+}
+
+#spe-size{
+  display: flex;
+  flex-direction: row;
+}
+
+.s12{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+#sortBtn{
+
+  position: absolute;
+  right: 42%;
+  bottom: 5%;
+}
+.time-comp{
+  position: absolute;
+  left: 1%;
+  top: 12%;
+  background-color: rgb(254, 254, 37);
+  width: 250px;
+  padding-top: 5px;
+  border-radius: 10px;
+
+  
+ 
+}
+.comp{
+
+  color:#161717;
+  font-weight: 1000;
+  font-size: large;
+  
+  
+  
+}
